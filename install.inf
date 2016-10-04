@@ -1,10 +1,5 @@
 [info]
-title=HTML Tidy
-desc=Linter for CudaLint, adds support for HTML lexer, uses HTML Tidy tool
+title=Linter for HTML, using Tidy
+desc=Linter for CudaLint, adds support for HTML lexer, using HTML Tidy tool
 type=cudatext-plugin
 subdir=cuda_lint_htmltidy
-
-[item1]
-section=none
-caption=none
-method=none

@@ -1,21 +1,12 @@
-#
-# linter.py
-# Linter for CudaLint
-#
-# Original: by Aparajita Fishman
 # Copyright (c) 2013 Aparajita Fishman
 # Change for CudaLint: Alexey T.
-#
 # License: MIT
-#
-
-"""This module exports the HtmlTidy plugin class."""
 
 import os
-from SublimeLinter.lint import Linter, util
+from cuda_lint import Linter, util
 
 if os.name=='nt':
-    _exe = os.path.join(os.path.dirname(__file__), 'Tidy', 'tidy')
+    _exe = os.path.join(os.path.dirname(__file__), 'tidy_win32', 'tidy')
 else:
     _exe = 'tidy'
 

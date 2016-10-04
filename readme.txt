@@ -1,6 +1,8 @@
-This is plugin for CudaLint plugin.
-It adds support for HTML lexer.
+Linter for CudaLint plugin.
+Supports HTML lexer.
 
 It uses HTML Tidy tool:
-- on Linux: install "tidy" as usual
-- on Windows: don't install anything; Tidy is included
+- on Linux/macOS: install "tidy" package
+- on Windows: don't install anything, tidy.exe is included
+
+Ported from SublimeLinter-html-tidy by Alexey T.
