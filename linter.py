@@ -6,7 +6,7 @@ import os
 from cuda_lint import Linter, util
 
 if os.name=='nt':
-    _exe = os.path.join(os.path.dirname(__file__), 'tidy_win32', 'tidy')
+    _exe = os.path.join(os.path.dirname(__file__), 'tidy_win32', 'tidy.exe')
 else:
     _exe = 'tidy'
 
