@@ -1,5 +1,5 @@
 # Copyright (c) 2013 Aparajita Fishman
-# Change for CudaLint: Alexey T.
+# Adapted for CudaLint: Alexey Torgashin (CudaText)
 # License: MIT
 
 import os
